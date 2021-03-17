@@ -7,8 +7,8 @@ class Photo:
     path: str
 
 
-german_1 = Photo(src="local", path="./photos/german1.jpeg")
-german_2 = Photo(src="local", path="./photos/german2.png")
+german_1 = Photo(src="local", path="../photos/german1.jpeg")
+german_2 = Photo(src="local", path="../photos/german2.png")
 
 def translate_text(text, source, destination): 
     return "asdf"
