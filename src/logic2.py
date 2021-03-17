@@ -17,7 +17,6 @@ german_1 = Photo(src="local", path="../photos/german1.jpeg")
 german_2 = Photo(src="local", path="../photos/german2.png")
 
 
-# The name of the image file to annotate
 file_name = os.path.join(
     os.path.dirname(__file__),
     german_2.path)
