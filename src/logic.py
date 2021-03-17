@@ -1,7 +1,5 @@
 from dataclasses import dataclass
 from typing import Mapping
-import cv2
-import pytesseract
 
 @dataclass
 class Photo: 
